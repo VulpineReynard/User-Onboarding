@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 700px;
   border: 1px solid white;
   border-radius: 5px;
+  background: rgba(255, 0, 0, 0.13);
 }
 .header h1 {
   text-align: center;
@@ -24,8 +25,10 @@ h1, h2, h3, h4, h5, h6, p {
 .user-form {
   width: 500px;
   margin: auto;
+  margin-bottom: 60px;
   border-radius: 5px;
   border: 1px solid white;
+  background: rgba(255, 0, 0, 0.13);
 }
 .user-form h1 {
   text-align: center;
@@ -39,6 +42,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   flex-direction: column;
   margin: 75px auto;
+  margin-top: 40px;
 }
 .user-form input {
   margin: auto;
@@ -92,6 +96,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
+  background: rgba(255, 0, 0, 0.13);
   justify-content: space-evenly;
 }
 .user-card {
@@ -145,6 +150,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 5px;
   border: 1px solid white;
   width: 60px;
+  transition: all .3s;
 }
 .password {
   margin: auto;
@@ -152,4 +158,8 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 5px;
   border: 1px solid white;
   width: 90px;
+  transition: all .3s;
+}
+.email:hover, .password:hover {
+  background: rgba(255, 255, 255, 0.267);
 }

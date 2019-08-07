@@ -1,7 +1,6 @@
 import React from 'react';
 
 const UserCard = ({ user }) => {
-  console.log(user);
   return(
     <div class="user-card">
       <div class="user-card-inner">
