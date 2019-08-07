@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 0;
   padding-bottom: 40px;
   width: 700px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.603);
   border-radius: 5px;
   background: rgba(255, 0, 0, 0.13);
 }
@@ -27,13 +27,13 @@ h1, h2, h3, h4, h5, h6, p {
   margin: auto;
   margin-bottom: 60px;
   border-radius: 5px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.603);
   background: rgba(255, 0, 0, 0.13);
 }
 .user-form h1 {
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.603);
   margin: auto;
   padding: 10px 0;
 }
