@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, p {
 .user-grid {
   width: 1200px;
   border-radius: 5px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.603);
   margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
@@ -138,6 +138,18 @@ h1, h2, h3, h4, h5, h6, p {
 .user-card-front {
   background-color: rgba(187, 187, 187, 0.11);
   color: white;
+}
+.hover-text {
+  animation: glow .5s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  
+  to {
+    text-shadow: 0 0 15px #fff;
+  }
 }
 .user-card-back {
   background-color: #00000086;
