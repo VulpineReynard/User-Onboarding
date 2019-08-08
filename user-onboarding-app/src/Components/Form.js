@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Form, Field, withFormik } from "formik";
+import { Form, Field, withFormik, } from "formik";
 import UserCard from './UserCard';
 import * as Yup from 'yup';
 
@@ -20,10 +20,10 @@ const UserForm = ({ errors, status }) => {
         <Field type="text" name="name" placeholder="Name" />
         {errors.name && <p className="error">{errors.name}</p>}
         
-        <Field type="text" name="email" placeholder="Email" />
+        <Field type="email" name="email" placeholder="Email" />
         {errors.email && <p className="error">{errors.email}</p>}
 
-        <Field type="text" name="password" placeholder="Password" />
+        <Field type="password" name="password" placeholder="Password" />
         {errors.password && <p className="error">{errors.password}</p>}
 
         <button type="submit">Submit!</button>
